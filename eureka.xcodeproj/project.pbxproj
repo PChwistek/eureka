@@ -13,6 +13,7 @@
 		4A3B824E22FA4C8600D79FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3B824D22FA4C8600D79FCC /* Assets.xcassets */; };
 		4A3B825122FA4C8600D79FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3B824F22FA4C8600D79FCC /* LaunchScreen.storyboard */; };
 		4A3B825922FA505900D79FCC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A3B825822FA505900D79FCC /* README.md */; };
+		4A3B826522FA5C4E00D79FCC /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3B826422FA5C4E00D79FCC /* Oswald-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		4A3B825022FA4C8600D79FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A3B825222FA4C8600D79FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A3B825822FA505900D79FCC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4A3B826222FA59FC00D79FCC /* Lobster_1.3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lobster_1.3.otf; sourceTree = "<group>"; };
+		4A3B826322FA59FC00D79FCC /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		4A3B826422FA5C4E00D79FCC /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oswald-Light.ttf"; path = "../../../../../Downloads/oswald/Oswald-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		4A3B824522FA4C8500D79FCC /* eureka */ = {
 			isa = PBXGroup;
 			children = (
+				4A3B826022FA59EC00D79FCC /* fonts */,
 				4A3B824622FA4C8500D79FCC /* AppDelegate.swift */,
 				4A3B824822FA4C8500D79FCC /* ViewController.swift */,
 				4A3B824A22FA4C8500D79FCC /* Main.storyboard */,
@@ -65,6 +70,16 @@
 				4A3B825822FA505900D79FCC /* README.md */,
 			);
 			path = eureka;
+			sourceTree = "<group>";
+		};
+		4A3B826022FA59EC00D79FCC /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4A3B826422FA5C4E00D79FCC /* Oswald-Light.ttf */,
+				4A3B826322FA59FC00D79FCC /* Oswald-Regular.ttf */,
+				4A3B826222FA59FC00D79FCC /* Lobster_1.3.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A3B825122FA4C8600D79FCC /* LaunchScreen.storyboard in Resources */,
+				4A3B826522FA5C4E00D79FCC /* Oswald-Light.ttf in Resources */,
 				4A3B824E22FA4C8600D79FCC /* Assets.xcassets in Resources */,
 				4A3B825922FA505900D79FCC /* README.md in Resources */,
 				4A3B824C22FA4C8500D79FCC /* Main.storyboard in Resources */,
