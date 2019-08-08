@@ -48,6 +48,7 @@
 			children = (
 				4A3B824522FA4C8500D79FCC /* eureka */,
 				4A3B824422FA4C8500D79FCC /* Products */,
+				4A3B825822FA505900D79FCC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,7 +70,6 @@
 				4A3B824D22FA4C8600D79FCC /* Assets.xcassets */,
 				4A3B824F22FA4C8600D79FCC /* LaunchScreen.storyboard */,
 				4A3B825222FA4C8600D79FCC /* Info.plist */,
-				4A3B825822FA505900D79FCC /* README.md */,
 			);
 			path = eureka;
 			sourceTree = "<group>";
