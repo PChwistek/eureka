@@ -14,6 +14,8 @@
 		4A3B825122FA4C8600D79FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3B824F22FA4C8600D79FCC /* LaunchScreen.storyboard */; };
 		4A3B825922FA505900D79FCC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A3B825822FA505900D79FCC /* README.md */; };
 		4A3B826522FA5C4E00D79FCC /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3B826422FA5C4E00D79FCC /* Oswald-Light.ttf */; };
+		4AE82EA622FB85E1008F04AB /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3B826322FA59FC00D79FCC /* Oswald-Regular.ttf */; };
+		4AE82EA722FB85E6008F04AB /* Lobster_1.3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3B826222FA59FC00D79FCC /* Lobster_1.3.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -141,10 +143,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A3B825122FA4C8600D79FCC /* LaunchScreen.storyboard in Resources */,
+				4AE82EA622FB85E1008F04AB /* Oswald-Regular.ttf in Resources */,
 				4A3B826522FA5C4E00D79FCC /* Oswald-Light.ttf in Resources */,
 				4A3B824E22FA4C8600D79FCC /* Assets.xcassets in Resources */,
 				4A3B825922FA505900D79FCC /* README.md in Resources */,
 				4A3B824C22FA4C8500D79FCC /* Main.storyboard in Resources */,
+				4AE82EA722FB85E6008F04AB /* Lobster_1.3.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

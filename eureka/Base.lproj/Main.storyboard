@@ -29,46 +29,154 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eureka Records" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4y4-bX-eTz">
-                                <rect key="frame" x="68" y="244" width="279" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Lobster1.3" family="Lobster 1.3" pointSize="47"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Who we are" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ui7-Be-QcZ">
-                                <rect key="frame" x="32" y="366" width="149" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald Regular" pointSize="35"/>
-                                <color key="textColor" red="0.99878591299057007" green="0.30078585695892657" blue="0.32321713423066961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="record-player" translatesAutoresizingMaskIntoConstraints="NO" id="Rtw-qR-gCi">
-                                <rect key="frame" x="87" y="96" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQY-wa-nMn">
-                                <rect key="frame" x="32" y="412" width="362" height="210"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin purus in justo tincidunt vulputate. Phasellus libero nisi, vehicula consectetur dui eu, pellentesque consequat augue. Aliquam elementum, tortor sed sollicitudin malesuada, tortor nibh rutrum metus, ut cursus mi purus in ipsum. Nullam accumsan tristique tortor ac rhoncus. Cras efficitur pretium. </string>
-                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="24"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where we are" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Er8-B5-h4z">
-                                <rect key="frame" x="40" y="694" width="174" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald Regular" pointSize="35"/>
-                                <color key="textColor" red="0.99878591299999997" green="0.30078585699999999" blue="0.32321713419999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMq-qd-a2k">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Opt-kv-qkP" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="R7v-Wc-fo3">
+                                                <rect key="frame" x="10" y="82.5" width="394" height="200.5"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="record-player" translatesAutoresizingMaskIntoConstraints="NO" id="P8v-x2-ccY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="128"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eureka Records" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1Y-eG-uKy">
+                                                        <rect key="frame" x="0.0" y="128" width="394" height="48"/>
+                                                        <fontDescription key="fontDescription" name="Lobster1.3" family="Lobster 1.3" pointSize="48"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open Daily, 10am - 10pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhD-qQ-xpQ">
+                                                        <rect key="frame" x="0.0" y="176" width="394" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="18"/>
+                                                        <color key="textColor" red="0.99878591299999997" green="0.30078585699999999" blue="0.32321713419999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Jm1-XM-XVq">
+                                                <rect key="frame" x="10" y="324" width="394" height="131"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Who We Are" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Na8-qf-I6F">
+                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="33"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald Regular" pointSize="24"/>
+                                                        <color key="textColor" red="0.99878591299999997" green="0.30078585699999999" blue="0.32321713419999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftQ-2e-7ko">
+                                                        <rect key="frame" x="0.0" y="33" width="394" height="98"/>
+                                                        <string key="text">We are the premier vinyl record shop in Southeastern Pennsylvania. We have jazz, rock, classical, funk, and hip-hop records. Saturday evenings are dedicated to sample-flipping contests.</string>
+                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="18"/>
+                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="aDp-la-MHy">
+                                                <rect key="frame" x="10" y="475" width="394" height="333"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where We Are" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o06-wA-YIE">
+                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="33"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald Regular" pointSize="24"/>
+                                                        <color key="textColor" red="0.99878591299999997" green="0.30078585699999999" blue="0.32321713419999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We are conveniently located in the center of Doylestown PA, right next to the County Theatre." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oca-vV-gdl">
+                                                        <rect key="frame" x="0.0" y="40" width="394" height="49"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="18"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 20 E State St, Doylestown, PA 18901" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5k-Ug-nqK">
+                                                        <rect key="frame" x="0.0" y="96" width="394" height="19.5"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="i2I-NB-DSl">
+                                                        <rect key="frame" x="0.0" y="122.5" width="394" height="210.5"/>
+                                                    </mapView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="i2I-NB-DSl" firstAttribute="width" secondItem="aDp-la-MHy" secondAttribute="width" id="xbX-z3-6ae"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Xby-6o-OD7">
+                                                <rect key="frame" x="10" y="815" width="394" height="106.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Us" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXT-C2-zcc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="33"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald Regular" pointSize="24"/>
+                                                        <color key="textColor" red="0.99878591299999997" green="0.30078585699999999" blue="0.32321713419999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="267-471-3914" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcB-Zu-mvL">
+                                                        <rect key="frame" x="0.0" y="33" width="394" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="18"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="eureka@records.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6CG-39-DH7">
+                                                        <rect key="frame" x="0.0" y="57.5" width="394" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="18"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn more at: eurekarecords.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3j-fa-IJd">
+                                                        <rect key="frame" x="0.0" y="82" width="394" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="18"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="R7v-Wc-fo3" secondAttribute="trailing" constant="10" id="0N2-0J-aeZ"/>
+                                            <constraint firstItem="Jm1-XM-XVq" firstAttribute="leading" secondItem="Opt-kv-qkP" secondAttribute="leading" constant="10" id="4yW-Ev-rec"/>
+                                            <constraint firstItem="aDp-la-MHy" firstAttribute="top" secondItem="Opt-kv-qkP" secondAttribute="top" constant="475" id="7FP-2j-dbJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="aDp-la-MHy" secondAttribute="trailing" constant="10" id="KJ3-ZY-odg"/>
+                                            <constraint firstItem="aDp-la-MHy" firstAttribute="top" secondItem="Jm1-XM-XVq" secondAttribute="bottom" constant="20" id="NAK-mL-ivG"/>
+                                            <constraint firstAttribute="trailing" secondItem="Xby-6o-OD7" secondAttribute="trailing" constant="10" id="XVT-vr-WH3"/>
+                                            <constraint firstItem="Xby-6o-OD7" firstAttribute="leading" secondItem="Opt-kv-qkP" secondAttribute="leading" constant="10" id="XVV-K2-5Lp"/>
+                                            <constraint firstItem="R7v-Wc-fo3" firstAttribute="leading" secondItem="Opt-kv-qkP" secondAttribute="leading" constant="10" id="Zxx-TW-Bj9"/>
+                                            <constraint firstItem="aDp-la-MHy" firstAttribute="leading" secondItem="Opt-kv-qkP" secondAttribute="leading" constant="10" id="bhc-Xk-h8X"/>
+                                            <constraint firstAttribute="trailing" secondItem="Jm1-XM-XVq" secondAttribute="trailing" constant="10" id="eCL-uG-IcY"/>
+                                            <constraint firstItem="R7v-Wc-fo3" firstAttribute="top" secondItem="Opt-kv-qkP" secondAttribute="top" constant="82.5" id="fWX-vH-B7o"/>
+                                            <constraint firstItem="Xby-6o-OD7" firstAttribute="top" secondItem="aDp-la-MHy" secondAttribute="bottom" constant="7" id="qvq-Vx-6IX"/>
+                                            <constraint firstItem="Xby-6o-OD7" firstAttribute="top" secondItem="Opt-kv-qkP" secondAttribute="top" constant="815" id="ugg-CY-gLU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Opt-kv-qkP" secondAttribute="bottom" id="AUt-W1-571"/>
+                                    <constraint firstItem="Opt-kv-qkP" firstAttribute="leading" secondItem="QMq-qd-a2k" secondAttribute="leading" id="Ao9-8k-ttQ"/>
+                                    <constraint firstItem="Opt-kv-qkP" firstAttribute="centerY" secondItem="QMq-qd-a2k" secondAttribute="centerY" id="IT8-HB-WAH"/>
+                                    <constraint firstItem="Opt-kv-qkP" firstAttribute="top" secondItem="QMq-qd-a2k" secondAttribute="top" id="XpV-8Q-G7N"/>
+                                    <constraint firstAttribute="trailing" secondItem="Opt-kv-qkP" secondAttribute="trailing" id="psw-gC-env"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QMq-qd-a2k" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="FKq-qX-QbI"/>
+                            <constraint firstItem="Opt-kv-qkP" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" priority="250" id="RUv-yN-ppK"/>
+                            <constraint firstItem="Opt-kv-qkP" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Taf-mQ-ACm"/>
+                            <constraint firstItem="QMq-qd-a2k" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Zbv-Ge-PJs"/>
+                            <constraint firstAttribute="bottom" secondItem="QMq-qd-a2k" secondAttribute="bottom" id="bjK-6s-wu4"/>
+                            <constraint firstItem="QMq-qd-a2k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wgh-VM-qn4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="i2I-NB-DSl" id="LWn-L1-WYx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
         </scene>
     </scenes>
     <resources>
