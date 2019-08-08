@@ -1,4 +1,4 @@
-# Eurkea Records  <#Title#>
+# Eurkea Records
 
 ## [Video](https://youtu.be/mLD9qhvPSrg)
 
